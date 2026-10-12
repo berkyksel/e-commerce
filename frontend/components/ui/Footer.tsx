@@ -50,7 +50,7 @@ export default function Footer() {
                             ShopTR
                         </Link>
                         <p className="text-slate-400 text-sm leading-relaxed">
-                            En yeni trendler, en teknolojik ürünler ve evinizin ihtiyacı olan her şey güvenli alışveriş güvencesiyle ShopTR'de.
+                            En yeni trendler, en teknolojik ürünler ve evinizin ihtiyacı olan her şey güvenli alışveriş güvencesiyle ShopTR&apos;de.
                         </p>
                         <div className="flex items-center gap-3 pt-2">
                             <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-indigo-600 hover:text-white transition-all">

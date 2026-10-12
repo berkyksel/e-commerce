@@ -42,20 +42,15 @@ export default function Hero() {
 
                     {/* Modern Görsel Placeholder/Container */}
                     <div className="relative z-10 w-full h-full bg-white shadow-2xl rounded-3xl p-4 border border-slate-100">
-                        <div className="aspect-[4/3] rounded-2xl bg-indigo-50 flex flex-col items-center justify-center border-2 border-dashed border-indigo-100 overflow-hidden group">
+                        <div role="img" aria-label="Yaz koleksiyonundan stil sahibi bir kombin" className="aspect-[4/3] rounded-2xl bg-cover bg-center overflow-hidden group" style={{ backgroundImage: "url(https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1400&q=90)" }}>
                             {/* 
                   GERÇEK PROJEDE BURAYA <Image /> BİLEŞENİNİ EKLEYİN:
                   <Image src="/hero-image.jpg" alt="Model" fill className="object-cover transition-transform group-hover:scale-105" />
                 */}
 
-                            {/* Placeholder İllüstrasyonu */}
-                            <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-indigo-200">
-                                <rect x="50" y="40" width="100" height="120" rx="8" fill="currentColor" opacity="0.5" />
-                                <circle cx="100" cy="80" r="20" fill="currentColor" />
-                                <rect x="70" y="110" width="60" height="8" rx="4" fill="currentColor" />
-                                <rect x="80" y="125" width="40" height="8" rx="4" fill="currentColor" />
-                            </svg>
-                            <span className="text-indigo-400 font-medium mt-4">Koleksiyon Görseli [%4:3]</span>
+                            <div className="flex h-full items-end bg-gradient-to-t from-slate-950/60 via-transparent to-transparent p-6">
+                                <span className="text-sm font-semibold tracking-wide text-white">Yaz koleksiyonu · 2024</span>
+                            </div>
                         </div>
                     </div>
                 </div>
